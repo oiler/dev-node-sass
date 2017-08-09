@@ -8,3 +8,9 @@ Use with these commands:
 
 ##Lazy load non-critical css
 https://codepen.io/tigt/post/async-css-without-javascript
+https://github.com/filamentgroup/loadCSS
+https://stackoverflow.com/questions/2304941/what-is-the-non-jquery-equivalent-of-document-ready
+https://www.giftofspeed.com/critical-rendering-path/
+https://www.giftofspeed.com/defer-loading-css/
+https://www.giftofspeed.com/defer-javascripts/
+https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-rendering-pages-in-1-second-735c6e45b47a
