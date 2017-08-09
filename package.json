@@ -1,0 +1,16 @@
+{
+  "name": "clean",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "node-sass src/scss/style.scss --output assets/css --source-map-embed --source-map-contents --output-style compressed",
+    "watch:sass": "npm run sass -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
