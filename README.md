@@ -22,3 +22,11 @@ https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-ren
 ## Lazy load img with Intersection Observer
 https://deanhume.com/Home/BlogPost/lazy-loading-images-using-intersection-observer/10163
 
+
+# JAVASCRIPT
+
+## bundle jQuery and Foundation in webpack
+https://stackoverflow.com/questions/34297788/npm-zurb-foundation-webpack-cannot-resolve-module-foundation/34611081#34611081
+https://webpack.js.org/guides/production/
+
+

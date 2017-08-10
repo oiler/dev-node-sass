@@ -43,21 +43,25 @@ body{background:red!important;color:white!important;}
 
 
 function downloadJSAtOnload() {
-    var element = document.createElement("script");
-    element.src = "./assets/js/script.js";
-    document.body.appendChild(element);
-    // var element1 = document.createElement("script");
+    var element1 = document.createElement("script");
+    var element2 = document.createElement("script");
+    //element1.src = "./src/js/vendor/jquery.js";
+    element2.src = "./assets/js/script.js";
+
+    //document.body.appendChild(element1);
+    document.body.appendChild(element2);
+
     // var element2 = document.createElement("script");
     // var element3 = document.createElement("script");
     // var element4 = document.createElement("script");
-    // element1.src = "./assets/js/vendor/jquery.js";
     // element2.src = "./assets/js/vendor/what-input.js";
     // element3.src = "./assets/js/vendor/foundation.js";
     // element4.src = "./assets/js/app.js";
-    // document.body.appendChild(element1);
     // document.body.appendChild(element2);
     // document.body.appendChild(element3);
     // document.body.appendChild(element4);
+
+
 }
 
 document.onreadystatechange = function () {
